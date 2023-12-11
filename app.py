@@ -1,7 +1,12 @@
 # Importing required packages
 import streamlit as st
-import openai
 import promptlayer
+import openai
+import os 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 #configure the Streamlit page by setting the page title and displaying a title and sidebar with some information about the chatbot
 
